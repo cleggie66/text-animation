@@ -122,7 +122,7 @@ function LetterGenerator(props) {
 
     return (
         <>
-            <div
+            <div className="letter"
                 onMouseOver={() => {
                     setStartCounter(true)
                     setEndCounter(false)
@@ -132,7 +132,7 @@ function LetterGenerator(props) {
                     setEndCounter(true)
                 }}
             >
-                <img src={letterObj[letter][counter]} alt="test">
+                <img src={letterObj[letter][counter]} alt={letter}>
                 </img>
             </div>
         </>

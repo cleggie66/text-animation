@@ -1,42 +1,23 @@
 .word {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   background-color: gray;
 }
 
 .letter {
-  height: 20vh;
-  width: 10vw;
+  height: 10vh;
+  width: 5vw;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all 0.3s linear;
+  overflow: hidden;
 }
 
 .letter:hover {
-  width: 15vw;
+  width: 7vw;
 }
 
-.animated-letter {
+.letter>img {
   height: 100%;
-}
-
-.red {
-  background-color: red;
-}
-
-.green {
-  background-color: green;
-}
-
-.blue {
-  background-color: blue;
-}
-
-.indigo {
-  background-color: indigo;
-}
-
-.violet {
-  background-color: violet;
 }

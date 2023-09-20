@@ -22,7 +22,7 @@ function App() {
   return (
     <>
       <div className='word'>
-        <LetterGenerator letter={"a"}/>
+        <LetterGenerator letter={"a"} />
         <LetterGenerator letter={"b"} />
         <LetterGenerator letter={"o"} />
         <LetterGenerator letter={"u"} />
