@@ -69,8 +69,6 @@ import t10 from "../../letters/t/navbar10.png";
 import t11 from "../../letters/t/navbar11.png";
 import t12 from "../../letters/t/navbar12.png";
 
-import { object } from 'prop-types';
-
 function LetterGenerator(props) {
     const intervalTime = 20;
     const frameCount = 12
